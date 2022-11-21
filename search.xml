@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>cloudflare自选ip</title>
+      <link href="/2022/11/19/cloudflare%E8%87%AA%E9%80%89ip/"/>
+      <url>/2022/11/19/cloudflare%E8%87%AA%E9%80%89ip/</url>
+      
+        <content type="html"><![CDATA[<p>众所周知，cloudflare是不限制流量的，而且有免费套餐，所以很多站长都拿它来当作免备案cdn，但是速度有时候有点感人（晚上八点到凌晨一点）于是我今天拿cloudlfareST测试了一些节点，加上网上收集的一些节点，达到最快速度的目的，以下是测速图<br><img src="https://haorblog.adhy.cc/blogimg/cffast.PNG"><br>有时候自己测的速度可能不一样，因为cf的节点总是上蹿下跳的，不稳定，这些大多数都是anycast节点，每个线路都设置了权重，虽然不能说最快，但是也是很稳定的，在域名解析服务商那里添加一个默认解析，再添加一个解析指向cloudflare.abeginner.cn就可以使用了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>20221119日记</title>
+      <link href="/2022/11/19/20221119%E6%97%A5%E8%AE%B0/"/>
+      <url>/2022/11/19/20221119%E6%97%A5%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="eb41445aca36e291307b44029e464e517b087ca7d8853b9a80d7b9257d1eb5e8">17d2b210ec5f90f053c8fe4c2c9761e21db1ae36a48b47d4bf2b1df669a1ee48b24fe587638cd888b48ae88f0dbcc7d8f9bb2043e322154fb7d824b84e8c75270669150c4b59a9e7561d06e74658c22445f20342c4413ff6eb7052324676e5ea2554175073790b84992a343629ac11279b05afabe4c87d7d2a16733f28ae4229ede5e36f47f7bd2f80e74d5b4c6b1b2f77d101afe2935ef60c783d1ea907bd99dbec61aae69628702665cd81b6f669b1be02ba85250157494810f7f23087f6ed8e940b018b4fc26402dfa292779ab5544274b6b5808bda7ec1662f3c776823e1b8ff09865b215e074f93c52f252e9aa896807d5706a373e63f2bf03274022c8d</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不想让你看</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 我的日记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>浅谈一下免备案</title>
+      <link href="/2022/11/18/%E5%85%8D%E5%A4%87%E6%A1%88/"/>
+      <url>/2022/11/18/%E5%85%8D%E5%A4%87%E6%A1%88/</url>
+      
+        <content type="html"><![CDATA[<p>备案真的好烦的，也不知道国家为什么要这样做虽然这样使网络世界更加安全，但是对于开发者来说越来越麻烦了，主要是我想备案，年龄不够还不让，要么用香港vps，要么就备案，或者用国外的cdn，半个月前我还调试了一下cloudflare里适合大陆的节点，如图<br><img src="https://haorblog.adhy.cc/blogimg/cf1.PNG"><br>虽然国内大部分区域还行，但是一到夜间（晚上八点-凌晨一点）就跟反复横跳一样，能不能连接上全靠运气，于是我想办法找人给开了个备案的子域名，套一下cdn，然后再买个顶级域名，301到备案的子域名上，这样速度和域名的便捷都实现了，用的是多吉云，速度延迟都可以，是融合cdn<br>这是我的邀请链接：<a href="https://console.dogecloud.com/register.html?iuid=4426">https://console.dogecloud.com/register.html?iuid=4426</a><br>香港vps的话，推荐openvps延迟稳定，速度还行，主要是不限流量</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2022/11/18日记</title>
+      <link href="/2022/11/18/1118/"/>
+      <url>/2022/11/18/1118/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="7e577bec641f2157c08412e5314029f242d8497a82ddf6183a8dd3bdcc6d4cbb">ca6333df3c00d7aa4147c61dc087dc23c0b71bc816b3db58f66e08a02de5c4b53aefab26860a8febc5af146a7dfbbdc7778245f504552d0405e111dcfc9c64237877d156e81b7da31a79d2764ccf71ffc93a6d67045e46147199b50e24e45bd4</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不想让你看</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 我的日记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于cloudflare的配置</title>
+      <link href="/2022/09/26/markdown/"/>
+      <url>/2022/09/26/markdown/</url>
+      
+        <content type="html"><![CDATA[<h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客"></a>欢迎来到我的博客</h1><p><img src="https://s1.ax1x.com/2022/09/09/vq7uq0.jpg" alt="vq7uq0.jpg"></p><h3 id="这是我用hexo搭建的博客"><a href="#这是我用hexo搭建的博客" class="headerlink" title="这是我用hexo搭建的博客"></a>这是我用hexo搭建的博客</h3><h3 id="这是博客目前的速度"><a href="#这是博客目前的速度" class="headerlink" title="这是博客目前的速度"></a>这是博客目前的速度</h3><p><img src="https://s1.ax1x.com/2022/09/09/vqHvnI.md.jpg"></p><h3 id="用的是itdog"><a href="#用的是itdog" class="headerlink" title="用的是itdog"></a>用的是<a href="https://itdog.cn/">itdog</a></h3><h3 id="itdog是一个免费的工具箱特别推荐"><a href="#itdog是一个免费的工具箱特别推荐" class="headerlink" title="itdog是一个免费的工具箱特别推荐"></a>itdog是一个免费的工具箱特别推荐</h3><h3 id="原先我是用github-pages-加-hexo-框架，还有butterfly主题搭建博客的，但是呢github-pages访问贼慢，可能是时不时还访问不了，于是我打算套一个cloudflare加速，但是cloudflare加速时不时在国内真的算减速，虽然免备案也支持https和企业级邮箱，而且还免费，他在国外的速度是真的不错，基本ping的延迟都在10以内，但是由于中国国内的种种原因导致他在中国成为了减速cdn，这个问题困扰了我很久，之前直接使用改dns的方法引入cloudflare的cdn的时候，速度和丢包率刷新我的认知，甚至部分地区和联通的线路有丢包100-的，最后我在cloudflare控制台发现了一个pages选项琢磨了一段时间以后发现他跟github-pages差不多，都是免费的静态网站托管，只不过他的最大文件限制是25m，每个月可以500次上传（对于个人来说够用了），最后我用cloudflare-pages-和-腾讯云d监控还有hexo框架和butterfly主题搭建了这个博客总体来说速度还是不错的，只是联通有点慢，毕竟cloudflare里没有适用于联通的节点，下面是我收集的一些高速稳定的cloudflare节点"><a href="#原先我是用github-pages-加-hexo-框架，还有butterfly主题搭建博客的，但是呢github-pages访问贼慢，可能是时不时还访问不了，于是我打算套一个cloudflare加速，但是cloudflare加速时不时在国内真的算减速，虽然免备案也支持https和企业级邮箱，而且还免费，他在国外的速度是真的不错，基本ping的延迟都在10以内，但是由于中国国内的种种原因导致他在中国成为了减速cdn，这个问题困扰了我很久，之前直接使用改dns的方法引入cloudflare的cdn的时候，速度和丢包率刷新我的认知，甚至部分地区和联通的线路有丢包100-的，最后我在cloudflare控制台发现了一个pages选项琢磨了一段时间以后发现他跟github-pages差不多，都是免费的静态网站托管，只不过他的最大文件限制是25m，每个月可以500次上传（对于个人来说够用了），最后我用cloudflare-pages-和-腾讯云d监控还有hexo框架和butterfly主题搭建了这个博客总体来说速度还是不错的，只是联通有点慢，毕竟cloudflare里没有适用于联通的节点，下面是我收集的一些高速稳定的cloudflare节点" class="headerlink" title="原先我是用github pages 加 hexo 框架，还有butterfly主题搭建博客的，但是呢github pages访问贼慢，可能是时不时还访问不了，于是我打算套一个cloudflare加速，但是cloudflare加速时不时在国内真的算减速，虽然免备案也支持https和企业级邮箱，而且还免费，他在国外的速度是真的不错，基本ping的延迟都在10以内，但是由于中国国内的种种原因导致他在中国成为了减速cdn，这个问题困扰了我很久，之前直接使用改dns的方法引入cloudflare的cdn的时候，速度和丢包率刷新我的认知，甚至部分地区和联通的线路有丢包100%的，最后我在cloudflare控制台发现了一个pages选项琢磨了一段时间以后发现他跟github pages差不多，都是免费的静态网站托管，只不过他的最大文件限制是25m，每个月可以500次上传（对于个人来说够用了），最后我用cloudflare pages 和 腾讯云d监控还有hexo框架和butterfly主题搭建了这个博客总体来说速度还是不错的，只是联通有点慢，毕竟cloudflare里没有适用于联通的节点，下面是我收集的一些高速稳定的cloudflare节点"></a>原先我是用github pages 加 hexo 框架，还有butterfly主题搭建博客的，但是呢github pages访问贼慢，可能是时不时还访问不了，于是我打算套一个cloudflare加速，但是cloudflare加速时不时在国内真的算减速，虽然免备案也支持https和企业级邮箱，而且还免费，他在国外的速度是真的不错，基本ping的延迟都在10以内，但是由于中国国内的种种原因导致他在中国成为了减速cdn，这个问题困扰了我很久，之前直接使用改dns的方法引入cloudflare的cdn的时候，速度和丢包率刷新我的认知，甚至部分地区和联通的线路有丢包100%的，最后我在cloudflare控制台发现了一个pages选项琢磨了一段时间以后发现他跟github pages差不多，都是免费的静态网站托管，只不过他的最大文件限制是25m，每个月可以500次上传（对于个人来说够用了），最后我用cloudflare pages 和 腾讯云d监控还有hexo框架和butterfly主题搭建了这个博客总体来说速度还是不错的，只是联通有点慢，毕竟cloudflare里没有适用于联通的节点，下面是我收集的一些高速稳定的cloudflare节点</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">腾讯云的解析可以将不同线路的用户解析到不同的服务器所以只要添加好cname解析以后再添加相同记录选择不同的线路添加解析值就好</span><br><span class="line">万能节点：</span><br><span class="line">1.0.0.1他会自动匹配可以用的节点如果你不想经常调试节点或担心节点挂掉，这个节点最适合你，线路选择默认，添加记录值就好</span><br><span class="line">电信节点：（线路选择电信）</span><br><span class="line">104.23.240.*</span><br><span class="line">走英国德国荷兰等 延迟比美国高一些 适合源站在欧洲的网站</span><br><span class="line">104.16.160.*</span><br><span class="line">圣何塞的线路，比洛杉矶要快一点</span><br><span class="line">108.162.236.*</span><br><span class="line">延迟稳定，但是延迟较高</span><br><span class="line">移动节点：（线路选择移动）</span><br><span class="line">162.158.133.* </span><br><span class="line">198.41.214.*</span><br><span class="line">198.41.212.*</span><br><span class="line">198.41.208.*</span><br><span class="line">198.41.209.*</span><br><span class="line">172.64.32.*</span><br><span class="line">141.101.115.*</span><br><span class="line">172.64.0. *</span><br><span class="line">172.64.16.* </span><br><span class="line">没有啥适合联通的联通的线路，不过你可以选择cloudflare和百度云加速合作的节点:</span><br><span class="line">162.159.211.4-103</span><br><span class="line">103.21.244.0/22</span><br><span class="line">103.22.200.0/22</span><br><span class="line">103.31.4.0/22</span><br><span class="line">104.16.0.0/12</span><br><span class="line">108.162.192.0/18</span><br><span class="line">131.0.72.0/22</span><br><span class="line">141.101.64.0/18</span><br><span class="line">162.158.0.0/15</span><br><span class="line">172.64.0.0/13</span><br><span class="line">173.245.48.0/20</span><br><span class="line">188.114.96.0/20</span><br><span class="line">190.93.240.0/20</span><br><span class="line">197.234.240.0/22</span><br><span class="line">198.41.128.0/17</span><br></pre></td></tr></table></figure><h2 id="总的来说cloudflare还是不错的，毕竟人家免费而且免费的额度不得不说是真的牛逼不像国内某些厂商扣扣索索的，一上来就是收费标准，我用cloudflare在一大堆教程文档里找收费标准，好不容易找到了，说了跟没说一样，差不多可以直接记为免费，而且只要一个邮箱就能用，不像国内还要实名认证（虽然不能怪国内的企业）"><a href="#总的来说cloudflare还是不错的，毕竟人家免费而且免费的额度不得不说是真的牛逼不像国内某些厂商扣扣索索的，一上来就是收费标准，我用cloudflare在一大堆教程文档里找收费标准，好不容易找到了，说了跟没说一样，差不多可以直接记为免费，而且只要一个邮箱就能用，不像国内还要实名认证（虽然不能怪国内的企业）" class="headerlink" title="总的来说cloudflare还是不错的，毕竟人家免费而且免费的额度不得不说是真的牛逼不像国内某些厂商扣扣索索的，一上来就是收费标准，我用cloudflare在一大堆教程文档里找收费标准，好不容易找到了，说了跟没说一样，差不多可以直接记为免费，而且只要一个邮箱就能用，不像国内还要实名认证（虽然不能怪国内的企业）"></a>总的来说cloudflare还是不错的，毕竟人家免费而且免费的额度不得不说是真的牛逼不像国内某些厂商扣扣索索的，一上来就是收费标准，我用cloudflare在一大堆教程文档里找收费标准，好不容易找到了，说了跟没说一样，差不多可以直接记为免费，而且只要一个邮箱就能用，不像国内还要实名认证（虽然不能怪国内的企业）</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是用qexo发布的一篇文章</title>
+      <link href="/2022/09/26/test/"/>
+      <url>/2022/09/26/test/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="7e7f4c928c3b5319c4629f11d4cee533ba5f4e6fc788f236048bca2f06f78615">ca6333df3c00d7aa4147c61dc087dc2311d3a3974bf13a7a4942d9cc5556166e5cb4d7ff91e30f82b47d63d1a013636a</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不想让你看</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲得无聊 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内嵌网页</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+    <style>
+        .item~.item{
+    margin-top: 15px;
+}
+    </style>
+    <script type="text/javascript">
+        function change(src){
+            console.log("ok")
+            var a = document.createElement("a")
+            a.href = src
+            a.download = "1.jpg"
+            document.getElementById("fff").appendChild(a)
+            a.click()
+            document.getElementById("fff").removeChild(a)
+
+        }
+    </script>
+    <script type="text/javascript">
+        var Ajax = function ()
+        {
+            $.getJSON ("json/dome.json", function (data)
+            {
+                let dataf = 15
+                $.each (data, function (i, item)
+                {
+                   var first = document.createElement("a")
+                   console.log(String(item.src))
+                   first.innerHTML = "<a class='item' href='" + String(item.src) + "' download='1.jpg' style='position: absolute; top:" + dataf + "px" + ";foot-size:10px;color:rgba(99, 143, 145, 0.411);width:100%;'>" + item.name + "</a>"
+                   document.getElementById("fff").appendChild(first)
+                   
+                   dataf += 45
+                });
+            });
+        }();
+    </script>
+    <style>
+        body {
+    cursor:url(img/bg.cur),
+          default;
+  }
+  a,
+  img {
+    cursor:url(img/img.cur),
+          default;
+  }
+        div{
+            background-color: rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+-webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+border-radius: 12px;
+-webkit-border-radius: 12px;
+color: rgba(255, 255, 255, 0.75);
+        }
+    </style>
+</head>
+<body>
+    <div id="name" style="position: absolute; height: 5%; width: 90%;left: 5%;font-size: 30px;color: rgba(99, 143, 145, 0.411);">欢迎来到文件分享页（点击下载）</div>
+    <div id="fff"  style="position: absolute; width: 90%;left: 5%;font-size: 30px;color: rgba(99, 143, 145, 0.411); top:8%; height: auto;"></div>
+</body>
+</html>

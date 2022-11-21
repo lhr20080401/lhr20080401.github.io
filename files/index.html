@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件分享页</title>
+    <style>
+  a,
+  img {
+    cursor:url(img/img.cur),
+          default;
+  }
+        body {
+            background-image: url("img/bg.jpg");/*设置背景图片*/
+            background-repeat:no-repeat;/*图片适应窗口大小，这里设置的是不进行平铺*/
+            background-attachment: fixed;/*图片相对于浏览器固定,这里设置背景图片固定，不随内容滚动*/
+            background-origin: border-box;/*从边框区域显示*/
+            background-size:cover;/*指定图片大小，此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小*/
+			display: flex;
+            height: 100vh;
+            align-items: center;
+            cursor:url(img/bg.cur),
+          default;
+ 		}
+    </style>
+    <style>
+        iframe{
+            background-color: rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+-webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+color: rgba(255, 255, 255, 0.75);
+cursor:url(img/bg.cur),
+          default;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="filemain.html" style="position: absolute;top: 0%;left: 30%;width: 40%;height: 100vh;"></iframe>
+</body>
+</html>

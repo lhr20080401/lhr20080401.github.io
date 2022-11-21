@@ -1,0 +1,1 @@
+var posts=["2022/11/18/1118/","2022/11/19/20221119日记/","2022/11/19/cloudflare自选ip/","2022/09/26/markdown/","2022/09/26/test/","2022/11/18/免备案/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};

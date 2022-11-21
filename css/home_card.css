@@ -1,0 +1,9 @@
+#home_card_haor {
+  overflow: hidden;
+  /* background: 
+    radial-gradient(circle at bottom, #fff -30%, transparent 70%),
+    linear-gradient(to right, #134a8e, #00b6f1 50%),
+    #fff; */
+  
+  background: url("https://haorblog.adhy.cc/blogimg/divbg.jpg")!important;  
+}
